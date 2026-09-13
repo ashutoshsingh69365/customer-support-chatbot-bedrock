@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "id": "test_bug_report",
+      "prompt": "The checkout page crashes when I click the Pay button.",
+      "expected_response": "I am sorry to hear that the checkout page is crashing. To help file a bug report, could you please provide the steps to reproduce this issue and the environment (browser/OS) you are using?"
+    },
+    {
+      "id": "test_faq_return",
+      "prompt": "What is your return policy?",
+      "expected_response": "We offer a 30-day return policy for unused items in their original packaging. Please initiate your return from your account dashboard."
+    },
+    {
+      "id": "test_faq_uncovered_crypto",
+      "prompt": "Can I pay using cryptocurrency like Bitcoin?",
+      "expected_response": "Cryptocurrency payments are not supported. For further assistance with payment methods, please reach our human support line at 1-800-555-SHOP."
+    },
+    {
+      "id": "test_out_of_scope_hiring",
+      "prompt": "Are you currently hiring software engineers?",
+      "expected_response": "I can only assist with online shop questions and bug reports. Please reach out to our human support team at 1-800-555-SHOP or email support@onlineshop.example.com."
+    }
+  ]
+}

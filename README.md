@@ -35,3 +35,17 @@ All work happens in **us-east-1**, with the model pinned to `us.amazon.nova-pro-
 - **Future Improvements:**
   1. Refine the system prompt instructions around ambiguity handling to trigger human hand-off more aggressively when confidence is borderline.
   2. Implement few-shot examples within the AgentCore harness configuration to improve zero-shot routing precision.
+
+## Chat Transcripts & Test Scenarios
+
+### Scenario 1: Covered FAQ Question
+**User:** What are your standard operating hours for the customer support team?  
+**Assistant:** Our customer support team is available Monday through Friday from 9:00 AM to 6:00 PM EST.
+
+### Scenario 2: Uncovered FAQ Question (Human Hand-off)
+**User:** Can I transfer my current platform subscription balance to an external third-party partner account?  
+**Assistant:** I am unable to assist with external balance transfers as this is not covered in our standard policies. Please contact our human support phone line at 1-800-555-0199 for further assistance.
+
+### Scenario 3: Out-of-Scope Request (Polite Hand-off)
+**User:** Can you recommend the best Italian restaurant near downtown New York?  
+**Assistant:** I am specialized solely in platform customer support and cannot provide restaurant recommendations. If you need any assistance with your platform account or services, please contact our support phone line at 1-800-555-0199.

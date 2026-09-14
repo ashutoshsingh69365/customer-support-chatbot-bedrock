@@ -1,0 +1,4 @@
+{"prompt": "The checkout page crashes when I click the Pay button.", "referenceResponse": "I understand the checkout page is crashing. Could you please provide the steps to reproduce this issue along with your browser or device details?"}
+{"prompt": "What is your return policy?", "referenceResponse": "We offer a 30-day return policy for unused items in original packaging. Please initiate returns from your account."}
+{"prompt": "Can I pay using cryptocurrency like Bitcoin?", "referenceResponse": "Cryptocurrency payments are not supported. For assistance with payment options, please reach our human support team at 1-800-555-SHOP."}
+{"prompt": "Are you currently hiring software engineers?", "referenceResponse": "I can only assist with store inquiries and bug reports. Please contact human support at 1-800-555-SHOP or email support@onlineshop.example.com."}

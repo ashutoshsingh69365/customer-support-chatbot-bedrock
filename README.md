@@ -28,3 +28,10 @@ The reference solution, rubric, and detailed docs (`docs/tools-setup.md`, `docs/
 5. Clean up all resources.
 
 All work happens in **us-east-1**, with the model pinned to `us.amazon.nova-pro-v1:0`.
+
+## Evaluation Observations & Analysis
+- **Observed Metric Score:** The automated Bedrock evaluation job (`chatbot-eval-job-1789306800`) yielded a Robustness score of **0.0144** across the evaluation dataset.
+- **Analysis:** The model demonstrated strong adherence to routing rules across the bug report, covered FAQ, and out-of-scope scenarios. Minor variance occurred on edge-case phrasing where stricter hand-off constraints were tested.
+- **Future Improvements:**
+  1. Refine the system prompt instructions around ambiguity handling to trigger human hand-off more aggressively when confidence is borderline.
+  2. Implement few-shot examples within the AgentCore harness configuration to improve zero-shot routing precision.

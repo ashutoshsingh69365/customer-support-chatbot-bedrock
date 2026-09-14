@@ -1,0 +1,5 @@
+{
+  "harness_arn": "arn:aws:bedrock:us-east-1:973304179469:harness/customer_support_harness",
+  "gateway_arn": "arn:aws:bedrock:us-east-1:973304179469:gateway/customer-support-gw",
+  "model_id": "us.amazon.nova-pro-v1:0"
+}
